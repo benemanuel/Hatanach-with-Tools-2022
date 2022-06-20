@@ -1,0 +1,6 @@
+npm install  bible-passage-reference-parser
+npm install  commander
+npm install  havarotjs
+npm install  hebrew-transliteration
+
+

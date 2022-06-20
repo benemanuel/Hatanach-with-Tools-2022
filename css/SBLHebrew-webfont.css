@@ -1,0 +1,46 @@
+/*
+source:https://www.sbl-site.org/educational/biblicalfonts_sblhebrew.aspx
+license:https://www.sbl-site.org/assets/pdfs/SBL_Font_End_User_License_Agreement.pdf
+webfont created https://transfonter.org/
+*/
+@font-face {
+    font-family: 'SBL Hebrew';
+    src: local('SBL Hebrew'), local('SBLHebrew'),
+        url('fonts/SBLHebrew.woff2') format('woff2'),
+        url('fonts/SBLHebrew.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: fallback;
+}
+
+.source-text-area {
+    font-family: "SBL Hebrew",serif;
+}
+
+.source-text-area-title {
+    font-family: "SBL Hebrew",serif;
+    font-style: bold;
+}
+
+.verse-text-area {
+    font-family: "SBL Hebrew",serif;
+}
+.comment-text-area {
+    font-family: "SBL Hebrew",serif;
+    background-color: lightgreen;
+}
+.editornotes-text-area {
+    font-family: "SBL Hebrew",serif;
+        background-color: violet;
+}
+.hebrew-text-area {
+    font-family: "SBL Hebrew",serif;
+        background-color: lightgray;
+}
+
+.source-text-highlighted-area{
+    font-family: "SBL Hebrew",serif;
+    background-color: lightblue;
+}
+
+

@@ -1,0 +1,23 @@
+/*****************************
+ All rights reserved.
+ AllFont.ru (c) 2011-2015
+ ****************************
+Source: https://allfont.net/download/garamond/
+b>Copyright	© 1992, Tilde Ltd. AG Fonts Collection. Created by Andrejs Grinbergs.
+b>Family	Garamond
+b>Tracing	Normal
+b>Ident	Alts:Garamond
+b>Full name	Garamond
+b>Version	1.0 Tue Jan 01 06:58:21 1980
+*/
+@font-face {
+    font-family: 'Garamond';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Garamond'), local('Garamond-Normal'),
+        url(fonts/garamond.woff) format('woff'),
+}
+
+.ru-text-area {
+    font-family: Garamond, ariel; font-size: 125%; direction: ltr; text-align: left;
+}

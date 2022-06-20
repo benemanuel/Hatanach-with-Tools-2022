@@ -1,0 +1,32 @@
+/*
+source:https://www.fontspace.com/fha-condensed-french-font-f15426
+Internal Info
+description
+Copyright (c) 1999, 2007, 2012 by FHA Condensed French is copyright the Fontry & James Stirling www.thefontry.com. All rights reserved.
+copyright
+Copyright (c) 1999, 2007, 2012 by The Fontry, Fontry West, Michael Adkins & James Striling. All rights reserved.
+designer
+Michael Adkins and James Stirling of the Fontry
+designerUrl
+www.thefontry.com
+version
+Version 1.003
+trademark
+FHA Condensed French is a trademark of The Fontry, Fontry West, Michael Adkins & James Striling.
+vendor
+Michael Adkins & James Striling
+license:LICENSED AS Freeware, Non-Commercial
+webfont created https://transfonter.org/
+*/
+@font-face {
+    font-family: 'FHA Condensed French NC';
+    src: local('FHA Condensed French NC'), local('FHACondensedFrenchNC'),
+        url('fonts/FHACondensedFrenchNC.woff2') format('woff2'),
+        url('fonts/FHACondensedFrenchNC.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.fr-text-area {
+    font-family: FHACondensedFrenchNC, ariel; direction: ltr; text-align: left;
+}
